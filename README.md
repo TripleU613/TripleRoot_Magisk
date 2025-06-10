@@ -1,18 +1,49 @@
-# TripleRoot_Magisk
-Kosher version of Magisk for custom ROMs. 
 
-Features:
+---
 
-> Auto-grant superuser requests - No prompts, instant access
+# 🔱 TripleRoot\_Magisk
 
-> Silent operation - No toast notifications or popups
+**Kosher version of Magisk for custom ROMs**
+A streamlined, no-nonsense root solution based on Magisk v29 — designed specifically for kosher or minimalist Android ROMs.
 
-> Minimal UI - Removed unnecessary interface elements
+---
 
-> Focused functionality - No modules, settings, or reboot options
+## ✨ Features
 
-> Clean experience - Streamlined for essential root access only
+> ✅ **Auto-grant superuser requests**
+> No prompts, no delays — instant `su` access.
 
-This is a custom-built version designed for users who want straightforward root access without the complexity of standard Magisk features - like for kosher ROMs that need root.
+> 🕵️ **Silent operation**
+> No toast notifications, no popups, zero distractions.
 
-Please respect the work involved - no reverse engineering.
+> 🎯 **Minimal UI**
+> No clutter. Just root access. UI trimmed to the bare essentials.
+
+> 🚫 **No modules, no settings, no reboot options**
+> You get root. That’s it. Focused and functional.
+
+> 🧼 **Clean experience**
+> Ideal for controlled environments — like kosher phones — where only trusted apps need root.
+
+---
+
+## 📦 Why TripleRoot?
+
+This is a custom-built Magisk for users who need **reliable superuser access without all the extra stuff**.
+
+Perfect for:
+
+* Kosher ROMs
+* Enterprise/kiosk builds
+* Secure, locked-down setups
+* Dev devices where minimal root is preferred
+
+---
+
+
+## 🔗 More Info
+
+Official thread:
+📍 [TripleRoot - Kosher Magisk for ROMs (JTech Forums)](https://forums.jtechforums.org/t/tripleroot-the-official-magisk-for-kosher-roms-based-off-v-29/3128)
+
+---
