@@ -235,14 +235,15 @@ class MainActivity : NavigationActivity<ActivityMainMd2Binding>(), SplashScreenH
             }.show()
         }
 
-        if (applicationInfo.flags and ApplicationInfo.FLAG_SYSTEM != 0) {
-            MagiskDialog(this).apply {
-                setTitle(CoreR.string.unsupport_general_title)
-                setMessage(CoreR.string.unsupport_system_app_msg)
-                setButton(MagiskDialog.ButtonType.POSITIVE) { text = android.R.string.ok }
-                setCancelable(false)
-            }.show()
-        }
+        // System app check removed - allow running as system app
+        // if (applicationInfo.flags and ApplicationInfo.FLAG_SYSTEM != 0) {
+        //     MagiskDialog(this).apply {
+        //         setTitle(CoreR.string.unsupport_general_title)
+        //         setMessage(CoreR.string.unsupport_system_app_msg)
+        //         setButton(MagiskDialog.ButtonType.POSITIVE) { text = android.R.string.ok }
+        //         setCancelable(false)
+        //     }.show()
+        // }
 
         if (applicationInfo.flags and ApplicationInfo.FLAG_EXTERNAL_STORAGE != 0) {
             MagiskDialog(this).apply {
